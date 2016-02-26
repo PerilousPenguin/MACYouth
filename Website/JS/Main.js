@@ -1,32 +1,62 @@
 $(document).ready(function() {
 		$(".about").mouseenter(function() {
-		$(".about").fadeTo(100,0.8);
+		$(".volunteer").fadeTo(0.0001,0);
+		$(".sign").fadeTo(0.0001,0);
+		$(".contact").fadeTo(0.0001,0);
+		$(".events").fadeTo(0.0001,0);
 	});
 	$(".about").mouseleave(function() {
-		$(".about").fadeTo(100,1);
+		$(".volunteer").fadeTo(0.0001,1);
+		$(".sign").fadeTo(0.0001,1);
+		$(".contact").fadeTo(0.0001,1);
+		$(".events").fadeTo(0.0001,1);
 	});
 		$(".sign").mouseenter(function() {
-		$(".sign").fadeTo(100,0.8);
+		$(".volunteer").fadeTo(0.0001,0);
+		$(".about").fadeTo(0.0001,0);
+		$(".contact").fadeTo(0.0001,0);
+		$(".events").fadeTo(0.0001,0);
 	});
 	$(".sign").mouseleave(function() {
-		$(".sign").fadeTo(100,1);
+		$(".volunteer").fadeTo(0.0001,1);
+		$(".about").fadeTo(0.0001,1);
+		$(".contact").fadeTo(0.0001,1);
+		$(".events").fadeTo(0.0001,1);
 	});
 		$(".volunteer").mouseenter(function() {
-		$(".volunteer").fadeTo(100,0.8);
+		$(".about").fadeTo(0.0001,0);
+		$(".sign").fadeTo(0.0001,0);
+		$(".contact").fadeTo(0.0001,0);
+		$(".events").fadeTo(0.0001,0);
 	});
 	$(".volunteer").mouseleave(function() {
-		$(".volunteer").fadeTo(100,1);
+		$(".about").fadeTo(0.0001,1);
+		$(".sign").fadeTo(0.0001,1);
+		$(".contact").fadeTo(0.0001,1);
+		$(".events").fadeTo(0.0001,1);
 	});
 		$(".contact").mouseenter(function() {
-		$(".contact").fadeTo(100,0.8);
+		$(".volunteer").fadeTo(0.0001,0);
+		$(".sign").fadeTo(0.0001,0);
+		$(".about").fadeTo(0.0001,0);
+		$(".events").fadeTo(0.0001,0);
 	});
 	$(".contact").mouseleave(function() {
-		$(".contact").fadeTo(100,1);
+		$(".volunteer").fadeTo(0.0001,1);
+		$(".sign").fadeTo(0.0001,1);
+		$(".about").fadeTo(0.0001,1);
+		$(".events").fadeTo(0.0001,1);
 	});
 	$(".events").mouseenter(function() {
-		$(".events").fadeTo(100,0.8);
+		$(".volunteer").fadeTo(0.0001,0);
+		$(".sign").fadeTo(0.0001,0);
+		$(".contact").fadeTo(0.0001,0);
+		$(".about").fadeTo(0.0001,0);
 	});
 	$(".events").mouseleave(function() {
-		$(".events").fadeTo(100,1);
+		$(".volunteer").fadeTo(0.0001,1);
+		$(".sign").fadeTo(0.0001,1);
+		$(".contact").fadeTo(0.0001,1);
+		$(".about").fadeTo(0.0001,1);
 	});
 });
